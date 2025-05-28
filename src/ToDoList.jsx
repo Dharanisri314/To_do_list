@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-function App() {
+function ToDoList() {
   const [tasks, setTasks] = useState([]);
   const [input, setInput] = useState('');
   const [isEditing, setIsEditing] = useState(false);
@@ -63,4 +63,4 @@ function App() {
   );
 }
 
-export default App;
+export default ToDoList;
